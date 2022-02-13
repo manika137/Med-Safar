@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/medsafar.gif");
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  color: #000024;
+  justify-content: center;
+
+  /* background-color: rgb(167, 250, 222); */
+  /* opacity: 0.8; */
+}
+
+.nav-item {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 800;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav-item:hover {
+  color: #6464db;
+  text-shadow: 2px 2px 4px #eeeaea;
+  transition: 0.3s;
+  font-size: 1.6em;
+  text-decoration: underline;
+}
+
+/* Written Content + button */
+.container {
+  /* border: 2px solid yellow; */
+  display: inline-block;
+  position: absolute;
+  top: 63%;
+  left: 64%;
+  width: 20%;
+  font-weight: 800;
+  color: #000024;
+}
+
+button{
+    background-color: #000024;;
+    border: 2px solid #6464db;
+    border-radius: 20px;
+    color: white;
+    font-size: 140%;
+    padding: 15px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #eeeaea;
+  }
+
+button:hover{
+    background-color: #6464db;
+    border: 2px solid gray;
+    box-shadow: 4px 4px 4px black;
+    font-size: 142%;
+    transition: 0.5s;
+}
+
+.footer {
+  /* border: 2px solid blue; */
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  background-color: #000024;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
