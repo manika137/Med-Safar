@@ -6,25 +6,30 @@
 /* Nav font  */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
+ td{
+  border: 1px solid #bebaba;
+  padding: 4px;
+} 
+
+tr:hover {
+  background-color: #dfd9d9;
+  transition: 0.5s;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
 .content {
-  background: url(/images/search_bg.jpg) no-repeat;
-  background-repeat: no-repeat;
+  background: url(../images/search_bg.jpg) no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   /* opacity: 0.5; */
 }
 /* Navbar */
-.nav {
-  /* border: 2px solid red; */
-  margin-left: 70%;
-  color: navy;
-}
 
 .nav-item {
   display: inline-block;
@@ -32,18 +37,19 @@ body {
   padding: 10px;
   font-size: 120%;
   font-weight: 800;
+  border-radius: 10px;
+  margin-left: 20%;
   font-family: 'Noto Sans', sans-serif;
 }
 
-.nav-item:hover{
-  /* background: #f5f5f5; */
+/* .nav-item:hover{
   color: rgb(100, 100, 219);
   text-shadow: 2px 2px 4px #eeeaea;
   transition: 0.3s;
   font-size: 122%;
   text-decoration: underline;
 
-}
+} */
 /* Search */
 
 .search {
